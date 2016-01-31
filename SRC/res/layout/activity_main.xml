@@ -21,13 +21,13 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="UofAtoB"
+            android:text="@string/uofatob"
             android:id="@+id/textView"
             android:textColor="#000000"
             android:textAlignment="gravity"
             android:layout_weight="0.01"
             android:textIsSelectable="true"
-            android:textSize="50dp"
+            android:textSize="50sp"
             android:gravity="center_vertical|center_horizontal"
             android:autoText="false" />
 
@@ -81,10 +81,11 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GO!"
+            android:text="@string/go"
             android:id="@+id/button"
             android:layout_weight="0.05"
-            android:textSize="30dp" />
+            android:textSize="30sp"
+            android:onClick=""/>
 
     </LinearLayout>
 
