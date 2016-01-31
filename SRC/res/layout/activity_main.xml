@@ -8,20 +8,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.uofatob.MainActivity"
     android:weightSum="1"
-    android:background="#22a006">
+    android:background="#29c706">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="1"
-        android:background="#0b8205">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="0.09"></LinearLayout>
+        android:background="#29c706">
 
         <TextView
             android:layout_width="match_parent"
@@ -36,11 +30,6 @@
             android:textSize="50dp"
             android:gravity="center_vertical|center_horizontal"
             android:autoText="false" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="85dp"></LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -66,11 +55,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="71dp"></LinearLayout>
-
-        <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -93,11 +77,6 @@
                 android:hint="Destination"
                 android:clickable="false" />
         </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="119dp"></LinearLayout>
 
         <Button
             android:layout_width="match_parent"
