@@ -34,17 +34,17 @@ public class MainActivity extends Activity {
         goButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String startRoom = startText.getText().toString();
-                String destRoom = destText.getText().toString();
+                Integer startRoom = Integer.getInteger(startText.getText().toString());
+                Integer destRoom = Integer.getInteger(destText.getText().toString());
                 String startBuilding = startSpin.getItemAtPosition(startSpin.getSelectedItemPosition()).toString();
                 String destBuilding = destSpin.getItemAtPosition(destSpin.getSelectedItemPosition()).toString();
 
                 //Build Intent to Route Activity
                 Intent intent = new Intent(getBaseContext(), RouteActivity.class);
                 intent.putExtra("Start Building", startBuilding);
-                intent.putExtra("Start Room", startRoom);
+                intent.putExtra("Start Room", startRoom.intValue());
                 intent.putExtra("Dest Building", destBuilding);
-                intent.putExtra("Dest Room", destRoom);
+                intent.putExtra("Dest Room", destRoom.intValue());
                 startActivity(intent);
 
             }
