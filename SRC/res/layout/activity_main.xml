@@ -84,8 +84,7 @@
             android:text="@string/go"
             android:id="@+id/button"
             android:layout_weight="0.05"
-            android:textSize="30sp"
-            android:onClick=""/>
+            android:textSize="30sp"/>
 
     </LinearLayout>
 

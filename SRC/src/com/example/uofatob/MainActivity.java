@@ -1,6 +1,7 @@
 package com.example.uofatob;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,8 +36,16 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 String startRoom = startText.getText().toString();
                 String destRoom = destText.getText().toString();
-                //Need to have queries to firebase
-                
+                String startBuilding = startSpin.getItemAtPosition(startSpin.getSelectedItemPosition()).toString();
+                String destBuilding = destSpin.getItemAtPosition(destSpin.getSelectedItemPosition()).toString();
+
+                //Build Intent to Route Activity
+                Intent intent = new Intent(getBaseContext(), RouteActivity.class);
+                intent.putExtra("Start Building", startBuilding);
+                intent.putExtra("Start Room", startRoom);
+                intent.putExtra("Dest Building", destBuilding);
+                intent.putExtra("Dest Room", destRoom);
+                startActivity(intent);
 
             }
 

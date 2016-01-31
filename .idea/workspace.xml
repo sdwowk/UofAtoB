@@ -10,6 +10,11 @@
           <theme>@android:style/Theme.Material.NoActionBar</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/SRC/res/layout/activity_route.xml">
+        <config>
+          <theme>@android:style/Theme.Black.NoTitleBar</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/SRC/res/menu/main.xml">
         <config>
           <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
@@ -22,15 +27,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4fe4032-3900-4cda-9b8f-f8bce8822c6f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/MainActivity$1.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R$string.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R$style.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/RouteActivity.class" afterPath="$PROJECT_DIR$/out/production/UofAtoB/com/example/uofatob/RouteActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.apk" afterPath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/AndroidManifest.xml" afterPath="$PROJECT_DIR$/SRC/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/src/com/example/uofatob/MainActivity.java" afterPath="$PROJECT_DIR$/SRC/src/com/example/uofatob/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/src/com/example/uofatob/RouteActivity.java" afterPath="$PROJECT_DIR$/SRC/src/com/example/uofatob/RouteActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/SRC/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/res/values/strings.xml" afterPath="$PROJECT_DIR$/SRC/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SRC/res/layout/activity_route.xml" afterPath="$PROJECT_DIR$/SRC/res/layout/activity_route.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="UofAtoB.iws" />
@@ -53,42 +59,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SRC/src/com/example/uofatob/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6693989">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="47" />
               <folding>
-                <element signature="e#1061#1069#0" expanded="true" />
-                <element signature="e#1256#1574#0" expanded="true" />
-                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1092#1100#0" expanded="true" />
+                <element signature="e#1287#2182#0" expanded="true" />
+                <element signature="e#2181#2182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="R.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/gen/com/example/uofatob/R.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRC/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.037037">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="51" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#413#431#0" expanded="true" />
+                <element signature="e#559#577#0" expanded="true" />
+                <element signature="e#878#895#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/res/layout/activity_main.xml">
+      <file leaf-file-name="RouteActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRC/src/com/example/uofatob/RouteActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.55737704">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_route.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRC/res/layout/activity_route.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.965517">
-              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-              <folding>
-                <element signature="e#975#992#0" expanded="true" />
-                <element signature="e#3183#3195#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-9.965517">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,9 +135,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SRC/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/SRC/gen/com/example/uofatob/R.java" />
         <option value="$PROJECT_DIR$/SRC/src/com/example/uofatob/MainActivity.java" />
+        <option value="$PROJECT_DIR$/SRC/src/com/example/uofatob/RouteActivity.java" />
+        <option value="$PROJECT_DIR$/SRC/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/SRC/res/layout/activity_route.xml" />
+        <option value="$PROJECT_DIR$/SRC/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -247,24 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UofAtoB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SRC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uofatob" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,7 +543,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -571,23 +575,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.965517">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-          <folding>
-            <element signature="e#975#992#0" expanded="true" />
-            <element signature="e#3183#3195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRC/gen/com/example/uofatob/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
+        <state vertical-scroll-proportion="-11.074074">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="51" />
           <folding />
         </state>
@@ -595,12 +585,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SRC/src/com/example/uofatob/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6693989">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="47" />
           <folding>
-            <element signature="e#1061#1069#0" expanded="true" />
-            <element signature="e#1256#1574#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1092#1100#0" expanded="true" />
+            <element signature="e#1287#2182#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#413#431#0" expanded="true" />
+            <element signature="e#559#577#0" expanded="true" />
+            <element signature="e#878#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2106825">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="e#975#992#0" expanded="true" />
+            <element signature="e#3183#3195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/res/layout/activity_route.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.965517">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/src/com/example/uofatob/RouteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55737704">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
