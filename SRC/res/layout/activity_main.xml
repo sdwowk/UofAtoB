@@ -7,12 +7,106 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.uofatob.MainActivity"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#22a006">
 
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="117dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="UofAtoB"
-        android:id="@+id/textView" />
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#0b8205">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="0.09"></LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="UofAtoB"
+            android:id="@+id/textView"
+            android:textColor="#000000"
+            android:textAlignment="gravity"
+            android:layout_weight="0.01"
+            android:textIsSelectable="true"
+            android:textSize="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:autoText="false" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_width="135dp"
+                android:layout_height="59dp"
+                android:id="@+id/StartPoint"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_weight="0.50"
+                android:layout_marginRight="10dp"
+                android:hint="Starting Point"
+                android:clickable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_width="135dp"
+                android:layout_height="59dp"
+                android:id="@+id/EndPoint"
+                android:layout_weight="0.25"
+                android:focusable="true"
+                android:clickable="true"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:layout_weight="0.50"
+                android:layout_marginRight="10dp"
+                android:hint="Destination"
+                android:clickable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"></LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO!"
+            android:id="@+id/button"
+            android:layout_weight="0.05"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
 </LinearLayout>
