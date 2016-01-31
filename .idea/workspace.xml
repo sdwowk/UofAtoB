@@ -21,11 +21,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4fe4032-3900-4cda-9b8f-f8bce8822c6f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.apk" afterPath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/UofAtoB/UofAtoB.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b4fe4032-3900-4cda-9b8f-f8bce8822c6f" name="Default" comment="" />
     <ignored path="UofAtoB.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
